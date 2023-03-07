@@ -2,18 +2,20 @@
 
 
 .header{
-    width: 100%;
     display: flex;
+    padding: 1rem;
     background-color: $white;
     .container{
-        max-width: 70rem;
-        padding: 1rem;
+        width: 70rem;
         margin: 0 auto;
         display: flex;
         align-items: center;
         .content-header_left{
             display: flex;
             gap: 2rem;
+            img{
+                height: 32px;
+            }
             .navbar{
                 display: flex;
                 align-items: center;

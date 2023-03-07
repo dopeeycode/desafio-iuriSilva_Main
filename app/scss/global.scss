@@ -1,5 +1,7 @@
 @import 'Variables';
 @import 'Components/header';
+@import 'Components/mainContent';
+@import 'Components/profileStatus';
 
 
 *{
@@ -15,14 +17,21 @@ body, html{
     min-height: 100vh;
 }
 
+body{
+    background: $blue-light;
+
+}
+
 
 
 .active_navitem{
     color: $pink !important;
 }
 
-main{
-    background: $blue-light;
-}
 
+
+
+h1, h2, h3, h4, p, span{
+    color: $dark-light;
+}
 

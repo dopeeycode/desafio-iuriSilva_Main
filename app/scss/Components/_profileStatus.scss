@@ -1,0 +1,22 @@
+.profile-status{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .gray-color{
+        color: $gray;
+        display: flex;
+        gap: .5rem;
+    }
+    .musics{
+        display: flex;
+        align-items: center;
+        border: 1px solid red;
+        .styles_music{
+            color: $pink;
+            border: 1px solid $pink;
+            border-radius: 1rem;
+            padding: .4rem .7rem;
+        }
+    }
+    
+}
