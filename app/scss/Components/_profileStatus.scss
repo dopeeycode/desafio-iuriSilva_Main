@@ -10,12 +10,51 @@
     .musics{
         display: flex;
         align-items: center;
-        border: 1px solid red;
-        .styles_music{
-            color: $pink;
-            border: 1px solid $pink;
+        .music{
+            display: flex;
+            align-items: center;
+            .styles_music{
+                border-radius: 1rem;
+                align-items: center;
+                border:1px solid $pink;
+                padding: .4rem 1rem;
+                color: $dark-light;
+            }
+            button{
+                margin-left: 1rem;
+                color: $pink;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+                background: transparent;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }        
+    }
+    .films{
+        .film{
+            display: flex;
+            align-items: center;
+        }
+        .styles_film{
             border-radius: 1rem;
-            padding: .4rem .7rem;
+            align-items: center;
+            border:1px solid $pink;
+            padding: .4rem 1rem;
+            color: $dark-light;
+        }
+        button{
+            margin-left: 1rem;
+            color: $pink;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            background: transparent;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
     
